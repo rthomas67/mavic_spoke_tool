@@ -14,7 +14,7 @@ $fn=50;
 
 difference() {
     union() {
-        cylinder(d=knobDia, knobThickness);
+        cylinder(d=knobDia, h=knobThickness);
         cylinder(d=spokeNippleSplineCoreDia*3, h=knobThickness*2);
     }
     for (i=[0:6]) {
