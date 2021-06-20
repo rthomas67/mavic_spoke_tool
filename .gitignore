@@ -1,3 +1,5 @@
 *.stl
 *.gcode
 *.jpg
+*.code-workspace
+
